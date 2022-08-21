@@ -1,0 +1,7 @@
+---
+# vars file for mizu
+mizu_platform: '{{ mizu_os }}_{{ mizu_arch }}'
+mizu_url: '{{ mizu_mirror }}/{{ mizu_ver }}/mizu_{{ mizu_platform }}'
+mizu_checksum: '{{ mizu_checksums[mizu_ver][mizu_platform] }}'
+mizu_install_exe: '{{ mizu_install_dir }}/mizu_{{ mizu_ver }}_{{ mizu_platform }}'
+mizu_link: '{{ mizu_install_dir }}/mizu'

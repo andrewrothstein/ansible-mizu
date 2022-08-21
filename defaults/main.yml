@@ -1,0 +1,20 @@
+---
+# defaults file for mizu
+mizu_ver: '36.0'
+mizu_mirror: https://github.com/up9inc/mizu/releases/download
+mizu_os: linux
+mizu_arch: amd64
+mizu_install_dir: /usr/local/bin
+
+mizu_checksums:
+  '36.0':
+      # https://github.com/up9inc/mizu/releases/download/36.0/mizu_darwin_amd64.sha256
+      darwin_amd64: sha256:8e82e152aa6714a7974611323c59d55413a7a7bdaa880cffa82b7d4f30280f52
+      # https://github.com/up9inc/mizu/releases/download/36.0/mizu_darwin_arm64.sha256
+      darwin_arm64: sha256:99d1d05ddceab7b5788ac7e0c30579eaf94ff7c5665f2c119646677ef141a545
+      # https://github.com/up9inc/mizu/releases/download/36.0/mizu_linux_amd64.sha256
+      linux_amd64: sha256:442989c7c635f7a90396e06a7a1139e28b5b649cc9c82b44fede148f1ff225c1
+      # https://github.com/up9inc/mizu/releases/download/36.0/mizu_linux_arm64.sha256
+      linux_arm64: sha256:ef5741fb4ba090a4140407cd1d5cbd41a527b1678d3e0bc4b5ce045144fa23c2
+      # https://github.com/up9inc/mizu/releases/download/36.0/mizu_windows_amd64.sha256
+      windows_amd64: sha256:67970f021a0816dbe077103c3108afd6a64d602d82a90f316bc42335836e99a3
